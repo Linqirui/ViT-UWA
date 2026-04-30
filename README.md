@@ -1,6 +1,6 @@
 ## ViT-UWA
 
-The official implementation of the paper "ViT-UWA: Vision Transformer Underwater-Adapter for Dense Predictions Beneath the Water Surface".
+The official implementation of the paper "[ViT-UWA: Vision Transformer Underwater-Adapter for Dense Predictions Beneath the Water Surface](https://ieeexplore.ieee.org/abstract/document/11481591)" .
 
 If you found this project useful, please give us a star ⭐️ or [cite](#citation) us in your paper, this is the greatest support and encouragement for us.
 
@@ -20,11 +20,12 @@ Vision Transformer (ViT) and its variants have witnessed a significant success i
 If you find our ViT-UWA useful for your research, please cite us:
 
 ```
-@article{jia2026vituwa,
-  author  = {Yuheng Jia and Qirui Lin and Hua Li and Yutong Li and Sam Kwong and Runmin Cong},
-  title   = {{ViT-UWA: Vision Transformer Underwater-Adapter for Dense Predictions Beneath the Water Surface}},
-  journal = {IEEE Transactions on Image Processing},
-  year    = {2026}
+@article{jia2026vit,
+  title={ViT-UWA: Vision Transformer Underwater-Adapter for Dense Predictions Beneath the Water Surface},
+  author={Jia, Yuheng and Lin, Qirui and Li, Hua and Li, Yutong and Kwong, Sam and Cong, Runmin},
+  journal={IEEE Transactions on Image Processing},
+  year={2026},
+  publisher={IEEE}
 }
 ```
 
