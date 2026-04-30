@@ -12,7 +12,7 @@ If you found this project useful, please give us a star ⭐️ or [cite](#citati
 Vision Transformer (ViT) and its variants have witnessed a significant success in computer vision. However, their performance may degrade in underwater dense prediction tasks due to challenges like complex underwater environments, quality degradation, and light scattering in underwater images. To solve this problem, we propose the  Vision Transformer Underwater-Adapter (ViT-UWA), the first detail-focused and adapted ViT backbone for underwater dense prediction tasks, without requiring task-specific pretraining. In ViT-UWA, we first introduce High-frequency Components Prior (HFCP) to add high-frequency information of underwater images to the plain ViT, which can help recover and capture lost high-frequency information of underwater images. Then, we propose a Detail Aware Module (DAM) to obtain a detail-focused multi-scale convolutional feature pyramid, which can be used in kinds of dense prediction tasks. Through the ViT-DAM Cross Fusion (VDCF), we achieve bidirectional feature cross fusion between ViT and DAM. We evaluate ViT-UWA on multiple underwater dense prediction tasks, including semantic segmentation, instance segmentation, and object detection. With only ImageNet-22K pretraining, our ViT-UWA-B yields state-of-the-art 46.4 box AP and 44.2 mask AP on USIS10K dataset, which demonstrates the superiority of our method. Our code is available at https://github.com/Linqirui/ViT-UWA.
 
 ## Method
-![ViT-UWA](figs/ViT-UWA.png)
+![ViT-UWA](ViT-UWA.png)
 
 
 ## Citation
